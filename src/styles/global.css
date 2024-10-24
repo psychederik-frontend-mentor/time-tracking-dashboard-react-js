@@ -1,0 +1,50 @@
+/* 
+### Primary
+
+- Blue: hsl(246, 80%, 60%)
+
+- Light red (work): hsl(15, 100%, 70%)
+- Soft blue (play): hsl(195, 74%, 62%)
+- Light red (study): hsl(348, 100%, 68%)
+- Lime green (exercise): hsl(145, 58%, 55%)
+- Violet (social): hsl(264, 64%, 52%)
+- Soft orange (self care): hsl(43, 84%, 65%)
+
+### Neutral
+
+- Very dark blue: hsl(226, 43%, 10%)
+- Dark blue: hsl(235, 46%, 20%)
+- Desaturated blue: hsl(235, 45%, 61%)
+- Pale Blue: hsl(236, 100%, 87%)
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('./reset.css');
+
+:root {
+    --primary-blue: hsl(246, 80%, 60%);
+    --primary-work: hsl(15, 100%, 70%);
+    --primary-play: hsl(195, 74%, 62%);
+    --primary-study: hsl(348, 100%, 68%);
+    --primary-exercise: hsl(145, 58%, 55%);
+    --primary-social: hsl(264, 64%, 52%);
+    --primary-self-care: hsl(43, 84%, 65%);
+
+    --neutral-very-dark-blue: hsl(226, 43%, 10%);
+    --neutral-dark-blue: hsl(235, 46%, 20%);
+    --neutral-hover-blue: hsl(237, 40%, 35%);
+    --neutral-desaturated-blue: hsl(235, 45%, 61%);
+    --neutral-pale-blue: hsl(236, 100%, 87%);
+
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    background-color: var(--neutral-very-dark-blue);
+    color: var(--neutral-pale-blue);
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
